@@ -82,6 +82,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 		retry \
 		shellcheck \
 		software-properties-common \
+		# for compression
+		zstd \
 		# already installed but here for consistency
 		sudo \
 		tar \
